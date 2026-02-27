@@ -38,20 +38,6 @@
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
-  "relations" : [ {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "EDGE",
-      "id" : "6f466240-f6e6-11f0-9595-a3d3f4fb2c04"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
-      "id" : "c5672130-0e0d-11f1-97b7-717329eaf5c9"
-    },
-    "type" : "ManagedByEdge",
-    "typeGroup" : "COMMON",
-    "version" : 1580
-  } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : false,
