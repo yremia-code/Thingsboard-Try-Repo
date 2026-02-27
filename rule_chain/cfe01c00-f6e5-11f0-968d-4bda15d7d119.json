@@ -60,46 +60,46 @@
       "type" : "Attributes Updated"
     }, {
       "fromIndex" : 3,
-      "toIndex" : 20,
+      "toIndex" : 19,
       "type" : "Post telemetry"
     }, {
       "fromIndex" : 9,
-      "toIndex" : 11,
+      "toIndex" : 10,
       "type" : "Output"
     }, {
-      "fromIndex" : 11,
-      "toIndex" : 12,
+      "fromIndex" : 10,
+      "toIndex" : 11,
       "type" : "Success"
     }, {
-      "fromIndex" : 12,
-      "toIndex" : 17,
+      "fromIndex" : 11,
+      "toIndex" : 16,
       "type" : "True"
     }, {
-      "fromIndex" : 12,
-      "toIndex" : 18,
+      "fromIndex" : 11,
+      "toIndex" : 17,
       "type" : "False"
     }, {
-      "fromIndex" : 13,
-      "toIndex" : 14,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 15,
-      "toIndex" : 16,
-      "type" : "Success"
-    }, {
-      "fromIndex" : 17,
+      "fromIndex" : 12,
       "toIndex" : 13,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 14,
+      "toIndex" : 15,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 16,
+      "toIndex" : 12,
+      "type" : "Created"
+    }, {
+      "fromIndex" : 16,
+      "toIndex" : 14,
       "type" : "Created"
     }, {
       "fromIndex" : 17,
-      "toIndex" : 15,
-      "type" : "Created"
-    }, {
-      "fromIndex" : 18,
-      "toIndex" : 19,
+      "toIndex" : 18,
       "type" : "True"
     }, {
-      "fromIndex" : 20,
+      "fromIndex" : 19,
       "toIndex" : 7,
       "type" : "Output Alarm Predict"
     } ],
@@ -368,33 +368,6 @@
         "id" : "7072f6b0-0e24-11f1-94e1-f3781b086991"
       },
       "name" : "Agriculture Logic",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.flow.TbRuleChainInputNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 1116,
-        "layoutY" : 352
-      },
-      "configuration" : {
-        "forwardMsgToDefaultRuleChain" : false,
-        "ruleChainId" : "46bc4b50-f768-11f0-99ac-c5ecb16590c1"
-      },
-      "configurationVersion" : 1,
-      "createdTime" : 0,
-      "debugSettings" : {
-        "allEnabled" : false,
-        "allEnabledUntil" : 0,
-        "failuresEnabled" : false
-      },
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "707344d0-0e24-11f1-94e1-f3781b086991"
-      },
-      "name" : "ALARM",
       "queueName" : null,
       "ruleChainId" : null,
       "singletonMode" : false,
@@ -736,20 +709,7 @@
     },
     "type" : "Uses",
     "typeGroup" : "COMMON",
-    "version" : 2816
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "RULE_CHAIN",
-      "id" : "cfe01c00-f6e5-11f0-968d-4bda15d7d119"
-    },
-    "to" : {
-      "entityType" : "RULE_CHAIN",
-      "id" : "46bc4b50-f768-11f0-99ac-c5ecb16590c1"
-    },
-    "type" : "Uses",
-    "typeGroup" : "COMMON",
-    "version" : 2818
+    "version" : 2957
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -762,7 +722,7 @@
     },
     "type" : "Uses",
     "typeGroup" : "COMMON",
-    "version" : 2852
+    "version" : 2967
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
